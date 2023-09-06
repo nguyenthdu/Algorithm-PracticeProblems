@@ -12,14 +12,13 @@ func numberOfSteps(num int) int {
 			count++
 		} else {
 			num -= 1
+			
 			count++
 		}
 	}
 	return count
-
 }
 
 func main() {
 	fmt.Println(numberOfSteps(14))
-
 }
