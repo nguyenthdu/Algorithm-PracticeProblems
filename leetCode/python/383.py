@@ -4,9 +4,9 @@ class Solution:
             if i not in magazine:
                 return False
             else:
-                magazine = magazine.replace(i, '', 1)
+                magazine = magazine.replace(i, '', 1)# dòng này để loại bỏ ký tự i trong magazine
         return True
-    
+
     def canConstruct2(self, ransomNote: str, magazine: str) -> bool:
         # chuyển ransomNote  thành set để loại bỏ các ký tự trùng lặp tránh lặp lại 1 ký tự nhiều lần
         for i in set(ransomNote):
