@@ -1,3 +1,3 @@
-module GolangAlgorithms
+module Algorithms
 
 go 1.21.0
