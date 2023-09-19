@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func removeDuplicates(arr []int) []int {
 	unique := make(map[int]bool)
 	result := []int{}
@@ -14,9 +12,10 @@ func removeDuplicates(arr []int) []int {
 	return result
 
 }
-func main() {
-	arr := []int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}
-	result := removeDuplicates(arr)
-	fmt.Println(result)
 
-}
+// func main() {
+// 	arr := []int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}
+// 	result := removeDuplicates(arr)
+// 	fmt.Println(result)
+
+// }

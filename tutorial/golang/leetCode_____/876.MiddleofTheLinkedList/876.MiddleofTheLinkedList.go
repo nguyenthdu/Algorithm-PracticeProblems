@@ -9,7 +9,7 @@ import "fmt"
  *     Next *ListNode
  * }
  */
- /*
+/*
  */
 type ListNode struct {
 	Val  int
@@ -61,6 +61,6 @@ func main() {
 	node3.Next = node4
 	node4.Next = node5
 
-	printFromMiddleToEnd(node1)
+	middleNode1(node1)
 
 }

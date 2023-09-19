@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"strconv"
 )
+
 // kiểm tra số chia hết cho 3 và 5 thì in ra FizzBuzz
 // func fizzBuzz(n int) []string {
 // 	var answer []string
@@ -34,7 +35,7 @@ func fizzBuzz(n int) []string {
 			strDivi += "Buzz"
 		}
 		if strDivi == "" {
-			strDivi += strconv.Itoa(i)// chuyển số thành chuỗi
+			strDivi += strconv.Itoa(i) // chuyển số thành chuỗi
 		}
 		answer = append(answer, strDivi)
 

@@ -1,12 +1,21 @@
 package main
 
-func removeElement(nums []int, val int) int {
-	k := 0
-	for i := 0; i < len(nums); i++ {
-		if nums[i] != val {
-			nums[k] = nums[i]
-			k++
+import (
+	"sort"
+)
+
+func sortedSquares(nums []int) []int {
+	result := []int{}
+	for _, v := range nums {
+		if v < 0 {
+			v = v * -1
 		}
+
+		result = append(result, v*v)
 	}
-	return k
+	sort.Ints(result)
+	return result
+}
+func main() {
+
 }
