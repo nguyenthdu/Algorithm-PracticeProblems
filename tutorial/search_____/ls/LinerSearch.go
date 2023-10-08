@@ -15,6 +15,7 @@ func LSearch(arr []int, n int, key int) {
 	if flag == 0 {
 		fmt.Println("not found")
 	}
+
 }
 func LSearch1(arr []int, n int, key int) int {
 	find := -1

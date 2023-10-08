@@ -18,8 +18,8 @@ import (
 
 func hourglassSum(arr [][]int32) int32 {
 	// Write your code here
-	var max int32 = -100
-	for i := 0; i < len(arr)-2; i++ {
+	var max int32 = -100 // dung de so sanh voi cac gia tri khac trong mang de tim ra gia tri lon nhat
+	for i := 0; i < len(arr)-2; i++ {// len(arr)-2 de tranh truong hop mang bi vuot qua, boi vi mang co 6 phan tu nen len(arr) = 6
 		for j := 0; j < len(arr[i])-2; j++ {
 			var sum int32 = 0
 			sum += arr[i][j] + arr[i][j+1] + arr[i][j+2]
