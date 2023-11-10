@@ -68,6 +68,7 @@ func main() {
 		checkError(err)
 		arrItem := int32(arrItemTemp)
 		arr = append(arr, arrItem)
+
 	}
 
 	res := reverseArray(arr)

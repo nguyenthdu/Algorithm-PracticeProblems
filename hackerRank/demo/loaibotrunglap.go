@@ -6,8 +6,10 @@ func removeDuplicates(arr []int) []int {
 	for _, num := range arr {
 		if !unique[num] { //neu chua xuat hien
 			result = append(result, num)
+
 			unique[num] = true
 		}
+
 	}
 	return result
 

@@ -11,6 +11,7 @@ func maximumWealth(accounts [][]int) int {
 		}
 		listCus = append(listCus, amount)
 	}
+	//-> độ phức tạp O(n^2)
 	fmt.Println(listCus)
 
 	maxCus := listCus[0]
