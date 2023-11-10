@@ -1,2 +1,2 @@
 
-git rm -r --cached *.exe
+*.exe
