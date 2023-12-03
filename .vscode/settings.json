@@ -1,8 +1,13 @@
 {
-    "editor.formatOnSave": true,
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.autopep8"
-    },
-    "python.formatting.provider": "none",
-    "powermode.enabled": true
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "python.formatting.provider": "none",
+  "powermode.enabled": true,
+  "java.project.sourcePaths": [
+    "leetCode/_1295.FindNumberswithEvenNumberofDigits",
+    "hackerRank"
+  ],
+  "java.debug.settings.onBuildFailureProceed": true
 }
