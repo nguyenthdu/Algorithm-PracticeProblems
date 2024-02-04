@@ -7,7 +7,8 @@
   "powermode.enabled": true,
   "java.project.sourcePaths": [
     "leetCode/_1295.FindNumberswithEvenNumberofDigits",
-    "hackerRank"
+    "hackerRank",
+    "leetCode/_1768.MergeStringsAlternately"
   ],
   "java.debug.settings.onBuildFailureProceed": true
 }
