@@ -6,11 +6,11 @@
   "python.formatting.provider": "none",
   "powermode.enabled": true,
   "java.project.sourcePaths": [
-    "practice/etc",
-    "leetCode/_1768.MergeStringsAlternately",
-    "leetCode/_1295.FindNumberswithEvenNumberofDigits",
+    "leetCode",
     "hackerRank",
-    "leetCode/_69.Sqrt"
+    "MasteringAlgorithms",
+    "etc"
   ],
-  "java.debug.settings.onBuildFailureProceed": true
+  "java.debug.settings.onBuildFailureProceed": true,
+  "java.project.referencedLibraries": []
 }
